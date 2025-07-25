@@ -17,7 +17,7 @@ The dataset contains metadata of Netflix titles including:
 
 ##  Project Highlights
 
-### 🖼 Data Visualizations
+###  Data Visualizations
 - **Release Trends Over the Years**  
   Comparative line plots of movies and TV shows released yearly.
 - **Annual Releases (Last 20 Years)**  
@@ -64,17 +64,17 @@ The dataset contains metadata of Netflix titles including:
 
 ##  Sample Code Snippet
 
-```python
+``python
 from scipy import stats
 t_val = (M1 - M2) / (sp * np.sqrt(1/n1 + 1/n2))
 if t_val < stats.t.ppf(0.025, dof) or t_val > stats.t.ppf(0.975, dof):
-    print("Reject H₀") ```
+    print("Reject H₀") ``
 
 # How to Run
 * Clone the repo:
 
-bash
-git clone https://github.com/your-username/netflix-analysis.git
+`git clone https://github.com/your-username/netflix-analysis.git`
+
 * Open the notebook in Google Colab or Jupyter.
 
 * Run cells sequentially to reproduce visualizations and analysis.
